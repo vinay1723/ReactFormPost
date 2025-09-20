@@ -1,0 +1,67 @@
+.pincode-data {
+  padding: 30px;
+}
+
+.pincode-data {
+  font-family: Inter;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.pincode-data p:first-child {
+  font-family: Inter;
+  margin: 40px 0px;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.pincode-data input {
+  margin: 50px 0px;
+  height: 55px;
+  width: 95%;
+
+  font-size: 22px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 1px solid black;
+  border-left: none;
+}
+
+input[placeholder="Filter"]:focus {
+  outline: none;
+}
+
+.pincodesData {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.pincodesData > ul {
+  border: 1px solid black;
+  width: 90%;
+  padding: 30px;
+}
+
+.pincodesData ul li {
+  margin: 20px 0px;
+  list-style: none;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon {
+  border: 1px solid black;
+  border-right: none;
+  padding: 10px;
+  padding-right: 0px;
+  height: 55px;
+  width: 70px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
