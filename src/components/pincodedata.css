@@ -19,8 +19,7 @@
 .pincode-data input {
   margin: 50px 0px;
   height: 55px;
-  width: 95%;
-
+  width: 100%;
   font-size: 22px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
@@ -40,7 +39,7 @@ input[placeholder="Filter"]:focus {
 
 .pincodesData > ul {
   border: 1px solid black;
-  width: 90%;
+  width: 91%;
   padding: 30px;
 }
 
@@ -50,8 +49,8 @@ input[placeholder="Filter"]:focus {
 }
 
 .items {
+  width: 95.5%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
